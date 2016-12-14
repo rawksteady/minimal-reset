@@ -1,0 +1,28 @@
+/*  ==================================================================  */
+/*  mnml-reset v1.0
+/*  ----
+/*  Because sometimes, even Normalize can seem too much.
+/*  ----
+/*  dennisandersson.me
+/*  twitter.com/ndrsn
+/*  dribbble.com/dennisandersson
+/*  github.com/rawksteady/
+/*  codepen.io/dennisandersson
+/*  ==================================================================  */
+
+    * {
+        box-sizing: border-box;
+    }
+        *:after,
+        *:before {
+            box-sizing: inherit;
+        }
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        text-rendering: geometricPrecision;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+    }
